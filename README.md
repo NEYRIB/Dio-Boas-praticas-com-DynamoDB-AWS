@@ -82,7 +82,7 @@ aws dynamodb batch-write-item \
     --request-items file://batchmusic.json
 ```
 
-- Criar um index global secundário baeado no título do álbum
+- Criar um index global secundário baseado no título do álbum
 
 ```
 aws dynamodb update-table \
